@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>nl.plakbook.stamboom</groupId>
+    <artifactId>stamboom.pom</artifactId>
+    <name>Plakbook stamboom pom</name>
+    <packaging>pom</packaging>
+    <version>0.0.1-SNAPSHOT</version>
+
+    <scm>
+        <connection>scm:git:https://github.com/reginatb/stamboom.git</connection>
+        <developerConnection>scm:git:https://github.com/reginatb/stamboom.git</developerConnection>
+        <tag>develop</tag>
+        <url>https://github.com/reginatb/stamboom.git</url>
+    </scm>
+
+    <modules>
+        <module>model</module>
+        <module>application</module>
+        <module>configuration</module>
+    </modules>
+</project>
